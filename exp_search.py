@@ -1,5 +1,3 @@
-a = list(map(int, input().split()))
-b = list(map(int, input().split()))
 
 def exp_search(a,b):
     l1 = 0
@@ -68,4 +66,3 @@ def exp_search(a,b):
             l2 = left
             l1 += 1
     return False
-print(exp_search(a,b))
