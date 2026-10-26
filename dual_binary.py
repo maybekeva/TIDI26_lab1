@@ -1,6 +1,3 @@
-a = list(map(int, input().split()))
-b = list(map(int, input().split()))
-
 
 def mesto_search(arr, h, l, r):
     while l<=r:
@@ -38,60 +35,5 @@ def dual_binary(a,b):
         return dual_search(a, b, 0, len(a) - 1, 0, len(b) - 1)
     else:
         return dual_search(b, a, 0, len(b) - 1, 0, len(a) - 1)
-
-print(dual_binary(a,b))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
