@@ -1,5 +1,4 @@
-a = list(map(int, input().split()))
-b = list(map(int, input().split()))
+
 
 def two_track(a,b):
     l1 = 0
@@ -16,45 +15,5 @@ def two_track(a,b):
         else:
             l1+=1
     return False
-print(two_track(a,b))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
